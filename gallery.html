@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Lumière Hair Salon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo"><span class="logo-name">LUMIÈRE</span><span class="logo-sub">Hair Salon</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="booking.html" class="btn">Book Appointment</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-banner" style="--banner: url('https://images.unsplash.com/photo-1559599101-f09722fb4948?w=1800&q=80&auto=format&fit=crop')">
+      <div class="container">
+        <span class="eyebrow">Our Work</span>
+        <h1>Gallery</h1>
+        <p class="breadcrumb"><a href="index.html">Home</a> / Gallery</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Real Clients · Real Results</span>
+          <h2>A Glimpse of Our Artistry</h2>
+        </div>
+
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="cut">Cut &amp; Style</button>
+          <button class="filter-btn" data-filter="color">Color</button>
+          <button class="filter-btn" data-filter="treatment">Treatments</button>
+          <button class="filter-btn" data-filter="salon">Our Salon</button>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" data-category="color"><img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=700&q=80&auto=format&fit=crop" alt="Soft waves" /><span class="caption">Honey Balayage</span></div>
+          <div class="gallery-item" data-category="salon"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=700&q=80&auto=format&fit=crop" alt="Salon interior" /><span class="caption">Our Styling Lounge</span></div>
+          <div class="gallery-item" data-category="cut"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=700&q=80&auto=format&fit=crop" alt="Long layers" /><span class="caption">Long Soft Layers</span></div>
+          <div class="gallery-item" data-category="treatment"><img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=700&q=80&auto=format&fit=crop" alt="Hair treatment" /><span class="caption">Nourishing Ritual</span></div>
+          <div class="gallery-item" data-category="cut"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=700&q=80&auto=format&fit=crop" alt="Styling" /><span class="caption">Signature Blow-dry</span></div>
+          <div class="gallery-item" data-category="color"><img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=700&q=80&auto=format&fit=crop" alt="Rich color" /><span class="caption">Rich Brunette</span></div>
+          <div class="gallery-item" data-category="salon"><img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=700&q=80&auto=format&fit=crop" alt="Salon stations" /><span class="caption">Calm, Light-filled Space</span></div>
+          <div class="gallery-item" data-category="treatment"><img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=700&q=80&auto=format&fit=crop" alt="Hair wash" /><span class="caption">Scalp Spa</span></div>
+          <div class="gallery-item" data-category="cut"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700&q=80&auto=format&fit=crop" alt="Stylist at work" /><span class="caption">Precision Cutting</span></div>
+          <div class="gallery-item" data-category="salon"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=700&q=80&auto=format&fit=crop" alt="Salon chairs" /><span class="caption">Styling Stations</span></div>
+          <div class="gallery-item" data-category="color"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=700&q=80&auto=format&fit=crop" alt="Glowing look" /><span class="caption">Glossy Finish</span></div>
+          <div class="gallery-item" data-category="salon"><img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?w=700&q=80&auto=format&fit=crop" alt="Salon" /><span class="caption">Welcome to Lumière</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="cta-box reveal" style="background: var(--white)">
+          <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=900&q=80&auto=format&fit=crop" alt="Salon" />
+          <div>
+            <span class="eyebrow">Love What You See?</span>
+            <h2>Your Transformation<br />Starts Here</h2>
+            <p>Bring your inspiration photos and let our stylists bring your vision to life.</p>
+            <a href="booking.html" class="btn">Book Now &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox"><button aria-label="Close">&times;</button><img src="" alt="Gallery preview" /></div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-name">LUMIÈRE</span><span class="logo-sub">Hair Salon</span></a>
+        <p>Healthy hair, beautiful you — every day. A calm, luxurious space for expert hair care.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          <a href="#" aria-label="Pinterest"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 7c-3 0-4.5 2-4.5 4 0 1.2.5 2.3 1.5 2.6M11 11l-2 10M12 7c3 0 4.5 2 4.5 4s-1.5 4-3.5 4-2-1.5-2-1.5"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="booking.html">Book Online</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <ul>
+          <li>24 Rosewood Avenue</li>
+          <li>Downtown, Dubai</li>
+          <li><a href="tel:+971500000000">+971 50 000 0000</a></li>
+          <li><a href="mailto:hello@lumieresalon.com">hello@lumieresalon.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p style="margin-top:0">Get beauty tips and exclusive offers.</p>
+        <form class="newsletter"><input type="email" placeholder="Your email" required /><button type="submit" aria-label="Subscribe">&rarr;</button></form>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span data-year></span> Lumière Hair Salon. All rights reserved.</span>
+      <span>Mon–Sat 9:00 – 20:00 · Sun 10:00 – 18:00</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
